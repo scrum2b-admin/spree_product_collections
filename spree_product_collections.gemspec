@@ -1,10 +1,10 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_product_category'
+  s.name        = 'spree_product_collections'
   s.version     = '2.0.4'
-  s.summary     = 'Add collections and categories of products in Spree'
-  s.description = 'Add collections and categories of products in Spree'
+  s.summary     = 'Add collections of products in Spree'
+  s.description = 'Add collections of products in Spree'
   s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'ScrumTobe Team'

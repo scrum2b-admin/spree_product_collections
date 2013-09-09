@@ -2,7 +2,7 @@ SUMMARY
 ====================
 
 
-**Spree Product Category** is an extension of SpreeCommerce (www.spreecommerce.com), support to create collections and categories of products.
+**Spree Product Collections** is an extension of SpreeCommerce (www.spreecommerce.com), support to create collections and categories of products.
 The extension is developed by ScrumTobe Team.
 
 ***Contacts:***
@@ -16,17 +16,17 @@ Installation
 ------------
 
 The extension support Spree Core 2.0 or later versions.
-Add spree_product_category to your Gemfile:
+Add spree_product_collections to your Gemfile:
 
 ```ruby
-gem 'spree_product_category'
+gem 'spree_product_collections'
 ```
 
 Bundle your dependencies and run the installation generator:
 
 ```shell
 bundle
-bundle exec rails g spree_product_category:install
+bundle exec rails g spree_product_collections:install
 ```
 
 Testing
@@ -44,7 +44,7 @@ When testing your applications integration with this extension you may use it's 
 Simply add this require statement to your spec_helper:
 
 ```ruby
-require 'spree_product_category/factories'
+require 'spree_product_collections/factories'
 ```
 
 Copyright (c) 2013 [ScrumTobe], released under the New BSD License
